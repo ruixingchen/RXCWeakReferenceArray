@@ -12,7 +12,10 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/ruixingchen/RXCWeakReferenceArray.git", :tag => spec.version.to_s }
   spec.source_files  = "Source", "Source/**/*.{swift}"
+  spec.framework = "Foundation"
+
   spec.requires_arc = true
   spec.swift_versions = "5.0"
+
 
 end
