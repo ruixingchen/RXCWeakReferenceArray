@@ -1,0 +1,2 @@
+# RXCWeakReferenceArray
+for multi delegates
